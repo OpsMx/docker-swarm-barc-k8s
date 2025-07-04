@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: docker.io/opsmx11/dev-dockerswarm-ssdmay
-  newTag: 8441cae-7
+  newTag: 8441cae-8
