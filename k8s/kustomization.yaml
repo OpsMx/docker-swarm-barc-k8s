@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: docker.io/opsmx11/dev-dockerswarm-ssdmay
-  newTag: 18-noncritical
+  newTag: 19-noncritical
