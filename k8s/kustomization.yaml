@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: docker.io/opsmx11/dev-dockerswarm-ssdmay
-  newTag: 24-testing-non-critical
+  newTag: 25-testing-non-critical
