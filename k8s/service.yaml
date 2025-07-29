@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: petclinic
+  name: dockerswarm
   labels:
-    app: petclinic
+    app: dockerswarm
 spec:
   selector:
-    app: petclinic
+    app: dockerswarm
   ports:
     - protocol: TCP
       port: 80
