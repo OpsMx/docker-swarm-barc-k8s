@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: petclinic
+  name: dockerswarm
   labels:
-    app: petclinic
+    app: dockerswarm
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: petclinic
+      app: dockerswarm
   template:
     metadata:
       annotations:
-        deployment.kubernetes.io/serviceUrl: http://webgoat.cust-demo.opsmx.net/WebGoat
+        deployment.kubernetes.io/serviceUrl: http://webgoat.sales.opsmx.info/WebGoat
       labels:
-        app: petclinic
+        app: dockerswarm
     spec:
       containers:
-      - name: petclinic
-        image: docker.io/opsmx11/dev-dockerswarm-ssdmay:8441cae-6-
+      - name: dockerswarm
+        image: docker.io/opsmxssd/docker-swarm-barc:9839424-1-
         ports:
         - containerPort: 8080
         resources:
