@@ -4,5 +4,5 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: docker.io/opsmx11/dev-dockerswarm-ssdmay
-  newTag: 38-critical
+- name: opsmxssd/docker-swarm-barc
+  newTag: 9839424-1-
