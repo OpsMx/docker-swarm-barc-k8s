@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: docker.io/opsmxssd/docker-swarm-barc
-  newTag: f336339-4-noncritical
+  newTag: f336339-5-noncritical
